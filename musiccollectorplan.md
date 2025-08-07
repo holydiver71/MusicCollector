@@ -26,17 +26,7 @@ This plan outlines the phased development of the MusicCollector web application.
 
 ---
 
-## Phase 3: Code Quality & Standards
-
-- [ ] Apply Microsoft C# coding style (naming, formatting, etc.)
-- [ ] Refactor code to follow SOLID principles
-- [ ] Add comments and documentation
-- [ ] Ensure all code is covered by unit and e2e tests
-
----
-
-
-## Phase 4: Set Up PostgreSQL Database Integration
+## Phase 3: Set Up PostgreSQL Database Integration
 
 - [ ] Add PostgreSQL as the database for the project
 - [ ] Configure .NET backend to connect to PostgreSQL
@@ -44,7 +34,9 @@ This plan outlines the phased development of the MusicCollector web application.
 - [ ] Verify backend can connect to PostgreSQL instance
 - [ ] Document setup steps for local development
 
-## Phase 5: Prepare for Incremental Feature Development
+---
+
+## Phase 4: Prepare for Incremental Feature Development
 
 - [ ] Set up modular structure for backend (services, models, controllers)
 - [ ] Set up modular structure for frontend (components, pages, services)

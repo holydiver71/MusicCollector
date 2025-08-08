@@ -4,16 +4,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
 
+
 namespace MusicCollector.Tests
 {
     /// <summary>
     /// Unit tests for the /api/health endpoint of the MusicCollector API.
     /// </summary>
-    public class HealthEndpointTests : IClassFixture<WebApplicationFactory<Program>>
+public class HealthEndpointTests : IClassFixture<WebApplicationFactory<MusicCollector.Api.Program>>
     {
         private readonly HttpClient _client;
 
-        public HealthEndpointTests(WebApplicationFactory<Program> factory)
+public HealthEndpointTests(WebApplicationFactory<MusicCollector.Api.Program> factory)
         {
             // Create a test client for the API
             _client = factory.CreateClient();

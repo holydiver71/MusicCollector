@@ -1,28 +1,27 @@
 # MusicCollector Project Plan
 
-This plan outlines the phased development of the MusicCollector web application. The project will use a C# .NET backend, Next.js frontend, xUnit for unit testing, and Playwright for end-to-end testing. All code will follow Microsoft coding standards and SOLID principles. Each phase is independent and results in a working example.
+This plan outlines the phased development of the MusicCollector web application. The project will use a C# .NET backend, Next.js frontend, xUnit for unit testing, and Playwright for end-to-end testing. All code will follow Microsoft coding standards and SOLID principles. Each phase is independent and results in a working example. tick off the checklist tasks and phases as they are completed.lets do one at a time
 
 ---
 
 ## Phase 1: Project Skeleton & Initial Setup
 
-- [ ] Create solution structure in the current folder
-- [ ] Initialize C# .NET Web API backend (Microsoft coding style)
-- [ ] Initialize Next.js frontend app
-- [ ] Set up xUnit test project for backend
-- [ ] Set up Playwright for frontend e2e tests
-- [ ] Add README.md with build/run instructions
-- [ ] Ensure backend and frontend can run locally (localhost)
+ - [x] Create solution structure in the current folder
+ - [x] Initialize C# .NET Web API backend (Microsoft coding style)
+ - [x] Initialize Next.js frontend app
+ - [x] Set up xUnit test project for backend
+ - [x] Set up Playwright for frontend e2e tests
+ - [x] Add README.md with build/run instructions
+- [x] Ensure backend and frontend can run locally (localhost)
 
----
 
 ## Phase 2: Basic Web Interface & API Connection
 
-- [ ] Create a basic homepage in Next.js
-- [ ] Implement a simple API endpoint in .NET backend (e.g., /api/health)
-- [ ] Connect frontend to backend API (fetch health status)
-- [ ] Write xUnit test for API endpoint
-- [ ] Write Playwright test for homepage and API connection
+- [x] Create a basic homepage in Next.js
+- [x] Implement a simple API endpoint in .NET backend (e.g., /api/health)
+- [x] Connect frontend to backend API (fetch health status)
+- [x] Write xUnit test for API endpoint
+- [x] Write Playwright test for homepage and API connection
 
 ---
 

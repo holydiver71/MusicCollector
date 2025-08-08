@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dOwYLNB1Sq7ZrViVWsLynPeLESrCky4ncI4zuc9SNpg=",
+  "Source": "MusicCollector.Api",
+  "BasePath": "_content/MusicCollector.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

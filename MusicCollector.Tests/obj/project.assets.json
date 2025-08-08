@@ -7858,19 +7858,19 @@
     ]
   },
   "packageFolders": {
-    "/home/andy/.nuget/packages/": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/andy/Projects/MusicCollector/MusicCollector.Tests/MusicCollector.Tests.csproj",
+      "projectUniqueName": "/home/runner/work/MusicCollector/MusicCollector/MusicCollector.Tests/MusicCollector.Tests.csproj",
       "projectName": "MusicCollector.Tests",
-      "projectPath": "/home/andy/Projects/MusicCollector/MusicCollector.Tests/MusicCollector.Tests.csproj",
-      "packagesPath": "/home/andy/.nuget/packages/",
-      "outputPath": "/home/andy/Projects/MusicCollector/MusicCollector.Tests/obj/",
+      "projectPath": "/home/runner/work/MusicCollector/MusicCollector/MusicCollector.Tests/MusicCollector.Tests.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/MusicCollector/MusicCollector/MusicCollector.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/andy/.nuget/NuGet/NuGet.Config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -7882,8 +7882,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/andy/Projects/MusicCollector/MusicCollector.Api/MusicCollector.Api.csproj": {
-              "projectPath": "/home/andy/Projects/MusicCollector/MusicCollector.Api/MusicCollector.Api.csproj"
+            "/home/runner/work/MusicCollector/MusicCollector/MusicCollector.Api/MusicCollector.Api.csproj": {
+              "projectPath": "/home/runner/work/MusicCollector/MusicCollector/MusicCollector.Api/MusicCollector.Api.csproj"
             }
           }
         }
@@ -7892,11 +7892,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -7940,7 +7935,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/andy/.dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

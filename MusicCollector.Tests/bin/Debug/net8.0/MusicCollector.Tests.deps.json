@@ -1712,10 +1712,7 @@
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
-          "MusicCollector.Api.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "MusicCollector.Api.dll": {}
         },
         "compile": {
           "MusicCollector.Api.dll": {}

@@ -1,6 +1,3 @@
 @MusicCollector.Api_HostAddress = http://localhost:5125
 
-GET {{MusicCollector.Api_HostAddress}}/weatherforecast/
-Accept: application/json
-
 ###

@@ -1,6 +1,13 @@
 # MusicCollector Project Plan
 
-This plan outlines the phased development of the MusicCollector web application. The project will use a C# .NET backend, Next.js frontend, xUnit for unit testing, and Playwright for end-to-end testing. All code will follow Microsoft coding standards and SOLID principles. Each phase is independent and results in a working example. tick off the checklist tasks and phases as they are completed.lets do one at a time
+This plan outlines the phased development of the MusicCollector web application. The project will use a C# .NET backend, Next.js frontend, xUnit for unit testing, and Playwright for end-to-end testing.
+ 
+All code will follow Microsoft coding standards
+SOLID principles will be adhered to. 
+unit tests and e2e tests to be created and maintained.
+At the end of each phase prompt to commit changes to github.
+
+Each phase is independent and results in a working example. tick off the checklist tasks and phases as they are completed.lets do one at a time
 
 ---
 

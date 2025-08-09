@@ -5,6 +5,7 @@ This plan outlines the phased development of the MusicCollector web application.
 All code will follow Microsoft coding standards
 SOLID principles will be adhered to. 
 unit tests and e2e tests to be created and maintained.
+all user facing text needs to be externalised into a language resources file.
 At the end of each phase prompt to commit changes to github.
 
 Each phase is independent and results in a working example. tick off the checklist tasks and phases as they are completed.lets do one at a time

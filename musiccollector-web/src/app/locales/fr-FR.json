@@ -1,0 +1,6 @@
+{
+  "welcome": "Bienvenue sur MusicCollector",
+  "description": "Votre collection de musique, organisée et accessible.\nCommencez à construire votre bibliothèque et découvrez de nouveaux morceaux !",
+  "apiHealth": "État de santé de l'API",
+  "checkedAt": "Vérifié à :"
+}

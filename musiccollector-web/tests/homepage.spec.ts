@@ -9,10 +9,20 @@ test('Homepage displays API health status', async ({ page }) => {
   await page.goto('http://localhost:3000');
 
   // Assert: The main heading is visible
-  await expect(page.getByRole('heading', { name: /welcome to musiccollector/i })).toBeVisible();
+  // Accept both English and French welcome headings
+  await expect(
+    page.getByRole('heading', {
+      name: /welcome to musiccollector|bienvenue sur musiccollector/i
+    })
+  ).toBeVisible();
 
   // Assert: The API Health Status section is visible
-  await expect(page.getByRole('heading', { name: /api health status/i })).toBeVisible();
+  // Accept both English and French API Health headings
+  await expect(
+    page.getByRole('heading', {
+      name: /api health status|état de santé de l'api/i
+    })
+  ).toBeVisible();
 
   // Assert: The health status is displayed and is 'Healthy'
   await expect(page.getByText(/healthy/i)).toBeVisible();
